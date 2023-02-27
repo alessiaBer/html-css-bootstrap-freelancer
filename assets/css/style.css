@@ -31,3 +31,7 @@
 .debug .about .col {
     height: 230px;
 }
+
+.debug .contact_me .contact_form {
+    height: 500px;
+}
