@@ -1,12 +1,25 @@
 .debug nav {
     height: 90px;
-    border: 1px dashed;
 }
 
-.debug [class^="col"] {
+.debug [class^="container"] {
     border: 1px dashed red;
 }
 
-.debug .row {
+.debug [class^="col"] {
+    background-color: black;
+    border: 1px solid white;
+}
+
+.debug .nav .row {
     height: 100%;
 }
+
+.debug .banner {
+    height: 500px;
+    background-color: aqua;
+}
+
+.debug .portfolio .col {
+    height: 360px;
+} 
