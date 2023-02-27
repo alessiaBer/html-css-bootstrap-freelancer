@@ -1,3 +1,7 @@
+.mw_720 {
+    max-width: 720px;
+}
+
 .debug [class^="container"] {
     border: 1px dashed red;
 }
@@ -7,7 +11,7 @@
     border: 1px solid white;
 }
 
-.debug nav .col {
+.debug nav .col-6 {
     height: 90px;
 }
 
@@ -47,3 +51,4 @@
     background-color: darkblue;
     color: white;
 }
+
