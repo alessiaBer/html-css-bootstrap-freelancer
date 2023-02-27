@@ -1,0 +1,12 @@
+.debug nav {
+    height: 90px;
+    border: 1px dashed;
+}
+
+.debug [class^="col"] {
+    border: 1px dashed red;
+}
+
+.debug .row {
+    height: 100%;
+}
