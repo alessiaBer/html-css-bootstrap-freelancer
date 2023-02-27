@@ -23,3 +23,11 @@
 .debug .portfolio .col {
     height: 360px;
 } 
+
+.debug .about {
+    background-color: yellow;
+}
+
+.debug .about .col {
+    height: 230px;
+}
