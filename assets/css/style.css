@@ -1,7 +1,3 @@
-.mw_720 {
-    max-width: 720px;
-}
-
 .debug [class^="container"] {
     border: 1px dashed red;
 }
