@@ -1,8 +1,9 @@
+/* #region Common */
 :root {
     --bs-dark-cyan: #2c3e50;
     --bs-light-cyan: #3a546d;
 }
-
+/* #endregion Common */
 /* #region Debug */
 .debug [class^="container"] {
     border: 1px dashed red;
@@ -14,9 +15,9 @@
 } */
 
 
-.debug .jumbotron .container-md {
+/* .debug .jumbotron .container-md {
     height: 500px;
-}
+} */
 
 .debug #portfolio .col {
     height: 360px;
@@ -39,7 +40,7 @@
     color: white;
 }
 /* #endregion Debug */
-
+/* #region Utilities */
 .jumbotron,
 #about {
     background-color: var(--bs-teal);
@@ -53,6 +54,14 @@ header,
 .footer_bottom {
     background-color: var(--bs-dark-cyan);
 }
+/* #endregion Utilities */
+/* #region Jumbotron */
+
+
+/* #endregion Jumbotron */
+
+
+
 
 /**** footer bg: $cyan-800 and $cyan-900 *****/
 
