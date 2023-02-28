@@ -53,10 +53,11 @@ header,
 }
 /* #endregion Utilities */
 /* #region Jumbotron */
-
+.jumbotron img {
+    width: 200px;
+}
 
 /* #endregion Jumbotron */
-
 
 
 
