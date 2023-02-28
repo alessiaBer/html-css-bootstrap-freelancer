@@ -15,14 +15,6 @@
 } */
 
 
-/* .debug .jumbotron .container-md {
-    height: 500px;
-} */
-
-.debug #portfolio .col {
-    height: 360px;
-} 
-
 .debug #about .col {
     height: 230px;
 }
@@ -53,6 +45,10 @@
 header,
 .footer_bottom {
     background-color: var(--bs-dark-cyan);
+}
+
+.py_1 {
+    padding: 0.75rem 0;
 }
 /* #endregion Utilities */
 /* #region Jumbotron */
