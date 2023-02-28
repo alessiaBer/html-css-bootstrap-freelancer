@@ -4,26 +4,7 @@
     --bs-light-cyan: #3a546d;
 }
 /* #endregion Common */
-/* #region Debug */
-.debug [class^="container"] {
-    border: 1px dashed red;
-}
 
-/* .debug [class^="col"] {
-    background-color: black;
-    border: 1px solid white;
-} */
-
-
-
-.debug .footer_top .col {
-    height: 120px;
-}
-
-.debug .footer_bottom {
-    color: white;
-}
-/* #endregion Debug */
 /* #region Utilities */
 .jumbotron,
 #about,
@@ -52,12 +33,22 @@ header,
     color: var(--bs-teal);
     text-decoration: none;
 }
+
+.line {
+    width: 4.5rem;
+    height: 3px;
+}
+
+/* .left_line::after {
+    content: '/f005';
+    font-family: "Font Awesome 6 Brands"
+} */
 /* .fa-facebook-f::before {
     padding: 1rem 1.75rem !important;
 } */
 .fa-brands::before {
     border: 1px solid white;
-    padding: 1rem;
+    padding: 0.75rem;
     border-radius: 50%;
 }
 /* #endregion Utilities */
