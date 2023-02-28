@@ -38,29 +38,12 @@ header,
     width: 2.5rem;
     aspect-ratio: 1 / 1;
 }
-
-/* .left_line::after {
-    content: '/f005';
-    font-family: "Font Awesome 6 Brands"
-} */
-/* .fa-facebook-f::before {
-    padding: 1rem 1.75rem !important;
-} */
-/* .fa-brands::before {
-    border: 1px solid white;
-    padding: 0.75rem;
-    border-radius: 50%;
-} */
 /* #endregion Utilities */
+
 /* #region Jumbotron */
 .jumbotron img {
     width: 200px;
 }
-
 /* #endregion Jumbotron */
-
-
-
-/**** footer bg: $cyan-800 and $cyan-900 *****/
 
 
