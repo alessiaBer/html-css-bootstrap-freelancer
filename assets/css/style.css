@@ -8,28 +8,25 @@
     border: 1px dashed red;
 }
 
-.debug [class^="col"] {
+/* .debug [class^="col"] {
     background-color: black;
     border: 1px solid white;
-}
+} */
 
-.debug nav .col-6 {
-    height: 90px;
-}
 
-.debug .banner .container-md {
+.debug .jumbotron .container-md {
     height: 500px;
 }
 
-.debug .portfolio .col {
+.debug #portfolio .col {
     height: 360px;
 } 
 
-.debug .about .col {
+.debug #about .col {
     height: 230px;
 }
 
-.debug .contact_me .contact_form {
+.debug #contact .contact_form {
     height: 500px;
 }
 
@@ -43,8 +40,8 @@
 }
 /* #endregion Debug */
 
-.banner,
-.about {
+.jumbotron,
+#about {
     background-color: var(--bs-teal);
 }
 

@@ -15,18 +15,40 @@
 <body class="debug">
 
     <header class="bg-"id="app_header">
-        <nav class="container-lg">
+
+        <nav class="navbar navbar-expand-md navbar-dark text-uppercase fw-bold">
+            <div class="container-lg px-lg-5">
+              <a class="navbar-brand" href="#">start bootstrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#portfolio">portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#about">about</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#contact">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- <nav class="container-lg">
             <div class="row">
                 <div class="col-6"></div>
                 <div class="col-6"></div>
             </div>
             
-        </nav>
+        </nav> -->
     </header>
     <!-- /#app_header -->
 
     <main id="app_main">
-            <div class="banner">
+            <div class="jumbotron">
                 <div class="container-md">
                     <div class="banner-img"></div>
                     <div class="banner_text"></div>
@@ -34,8 +56,8 @@
             </div>
             <!-- /.banner -->
 
-            <section class="portfolio py-5">
-                <h2 class="text-center">LOREM</h2>
+            <section id="portfolio" class="py-5">
+                <h2 class="text-center">PORTFOLIO</h2>
                 <div class="container-lg">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                         <div class="col"></div>
@@ -49,8 +71,8 @@
             </section>
             <!-- /.portfolio -->
 
-            <section class="about py-5">
-                <h2 class="text-center">IPSUM</h2>
+            <section id="about"class="py-5">
+                <h2 class="text-center">ABOUT</h2>
                 <div class="container-md">
                     <div class="row row-cols-1 row-cols-md-2">
                         <div class="col"></div>
@@ -60,8 +82,8 @@
             </section>
             <!-- /.about -->
 
-            <section class="contact_me py-5">
-                <h2 class="text-center">LOREM IPSUM</h2>
+            <section id="contact" class="py-5">
+                <h2 class="text-center">CONTACT ME</h2>
                 <div class="container-md">
                     <div class="contact_form"></div>
                 </div>
