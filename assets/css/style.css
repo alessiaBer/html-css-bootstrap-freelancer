@@ -15,10 +15,6 @@
 } */
 
 
-.debug #contact .contact_form {
-    height: 500px;
-}
-
 
 .debug .footer_top .col {
     height: 120px;
@@ -30,7 +26,8 @@
 /* #endregion Debug */
 /* #region Utilities */
 .jumbotron,
-#about {
+#about,
+#contact button {
     background-color: var(--bs-teal);
 }
 
